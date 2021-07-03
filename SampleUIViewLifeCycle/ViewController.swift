@@ -20,9 +20,6 @@ class ViewController: UIViewController {
     @IBAction func tappedButton(_ sender: Any) {
         redViewWidth100Constraint.isActive = false
         redViewWidth200Constraint.isActive = true
-        
-        redView.setNeedsUpdateConstraints()
-        redView.updateConstraintsIfNeeded()
     }
 }
 
