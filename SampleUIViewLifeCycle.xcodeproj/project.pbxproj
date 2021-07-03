@@ -15,6 +15,7 @@
 		C6ED09C2269052920090D7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6ED09C0269052920090D7FA /* LaunchScreen.storyboard */; };
 		C6ED09CD269052920090D7FA /* SampleUIViewLifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED09CC269052920090D7FA /* SampleUIViewLifeCycleTests.swift */; };
 		C6ED09D8269052920090D7FA /* SampleUIViewLifeCycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED09D7269052920090D7FA /* SampleUIViewLifeCycleUITests.swift */; };
+		C6ED09E6269052C10090D7FA /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED09E5269052C10090D7FA /* RedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C6ED09D3269052920090D7FA /* SampleUIViewLifeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUIViewLifeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ED09D7269052920090D7FA /* SampleUIViewLifeCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUIViewLifeCycleUITests.swift; sourceTree = "<group>"; };
 		C6ED09D9269052920090D7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6ED09E5269052C10090D7FA /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C6ED09B5269052910090D7FA /* AppDelegate.swift */,
 				C6ED09B7269052910090D7FA /* SceneDelegate.swift */,
 				C6ED09B9269052910090D7FA /* ViewController.swift */,
+				C6ED09E5269052C10090D7FA /* RedView.swift */,
 				C6ED09BB269052910090D7FA /* Main.storyboard */,
 				C6ED09BE269052920090D7FA /* Assets.xcassets */,
 				C6ED09C0269052920090D7FA /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				C6ED09BA269052910090D7FA /* ViewController.swift in Sources */,
 				C6ED09B6269052910090D7FA /* AppDelegate.swift in Sources */,
+				C6ED09E6269052C10090D7FA /* RedView.swift in Sources */,
 				C6ED09B8269052910090D7FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
